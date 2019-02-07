@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wei.android.lib:fingerprintidentify:1.1.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fingerprintidentify-1.1.4.aar/0a7a4a338bfe3da510756fc458a130e0/jars/libs/Samsung_Fingerprint_Pass-v1.2.2.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fingerprintidentify-1.1.4.aar/0a7a4a338bfe3da510756fc458a130e0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fingerprintidentify-1.1.4.aar/0a7a4a338bfe3da510756fc458a130e0/jars/libs/Samsung_Fingerprint_Sdk-v1.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fingerprintidentify-1.1.4.aar/0a7a4a338bfe3da510756fc458a130e0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fingerprintidentify-1.1.4.aar/0a7a4a338bfe3da510756fc458a130e0/jars/libs/MeiZu_Fingerprint.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wei.android.lib/fingerprintidentify/1.1.4/92c498b514821701a46a41dbbd7248474f9b78f8/fingerprintidentify-1.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

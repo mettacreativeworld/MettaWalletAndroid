@@ -1,0 +1,2 @@
+# Referenced at /Users/sriharikapu/Documents/GitHub/eltwallet/android1+1/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:30
+-keep class tech.mettacreative.wallet.MainApplication { <init>(); }

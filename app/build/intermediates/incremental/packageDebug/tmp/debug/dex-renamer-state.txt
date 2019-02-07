@@ -1,0 +1,7 @@
+#Thu Feb 07 13:55:01 MYT 2019
+base.0=/Users/sriharikapu/Documents/GitHub/eltwallet/android1+1/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/sriharikapu/Documents/GitHub/eltwallet/android1+1/app/build/intermediates/dex/debug/mergeDexDebug/out

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f794a93c-77a7-429b-87a5-8218c9b8a3d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../android/app/BUCK" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/BUCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/java/com/eltwallet/MainActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/java/com/eltwallet/MainApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-land-hdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-land-ldpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-land-mdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-land-xhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-land-xxhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-land-xxxhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-port-hdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-port-ldpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-port-mdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-port-xhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-port-xxhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable-port-xxxhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/drawable/launch_screen_bitmap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/mipmap-ldpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/bin/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/ic_launcher-web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/java/tech/mettacreative/wallet/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/java/tech/mettacreative/wallet/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-land-hdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-land-ldpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-land-mdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-land-xhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-land-xxhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-land-xxxhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-port-hdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-port-ldpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-port-mdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-port-xhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-port-xxhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable-port-xxxhdpi/launch_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/drawable/launch_screen_bitmap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet-tvOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet-tvOSTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet.xcodeproj/xcshareddata/xcschemes/eltwallet-tvOS.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet.xcodeproj/xcshareddata/xcschemes/eltwallet.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Base.lproj/LaunchScreen.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-50@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-57@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-57@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-72@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/AppIcon.appiconset/icon-83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default-568h@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default-667h@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default-Landscape-812h@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default-Landscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default-Portrait-812h@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default-Portrait.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Images.xcassets/LaunchImage.launchimage/Default@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwallet/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwalletTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/eltwalletTests/eltwalletTests.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/screenshots/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/screenshots/en-GB/1_iphone6Plus_1.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/screenshots/en-GB/2_iphone6Plus_2.1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/screenshots/en-GB/3_iphone6Plus_3.2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/screenshots/en-GB/4_iphone6Plus_4.3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/screenshots/en-GB/5_iphone6Plus_5.4.jpg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2030799700">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/tech/mettacreative/wallet/BuildConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/tech/mettacreative/wallet/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/tech/mettacreative/wallet/MainApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-156" />
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../node_modules/react-native-camera/android/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../node_modules/react-native-config/android/src/main/java/com/lugg/ReactNativeConfig/ReactNativeConfigModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../node_modules/react-native-config/android/src/main/java/com/lugg/ReactNativeConfig/ReactNativeConfigPackage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../riot-android" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eltwallet" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f794a93c-77a7-429b-87a5-8218c9b8a3d9" name="Default Changelist" comment="" />
+      <created>1549468489833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549468489833</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32956383" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="RNConsole" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" />
+      <window_info anchor="bottom" id="Logcat" order="2" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.32876712" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/tech/mettacreative/wallet/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tech/mettacreative/wallet/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tech/mettacreative/wallet/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156" />
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../node_modules/react-native-camera/android/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../node_modules/react-native-config/android/src/main/java/com/lugg/ReactNativeConfig/ReactNativeConfigModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../node_modules/react-native-config/android/src/main/java/com/lugg/ReactNativeConfig/ReactNativeConfigPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
