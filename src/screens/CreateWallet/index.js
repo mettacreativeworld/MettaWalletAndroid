@@ -163,7 +163,7 @@ class CreateWallet extends Component {
             <Text style={styles.explanatoryText}>
               {this.state.isConfirmation
                 ? "Just to make sure it's correct"
-                : "This PIN will be used to access your ELTWALLET. If you forget it, you won't be able to access your ETH."}
+                : "This PIN will be used to access your METTAWALLET. If you forget it, you won't be able to access your ETH & METTA Tokens."}
             </Text>
           </View>
 

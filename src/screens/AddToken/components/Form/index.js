@@ -135,7 +135,7 @@ export default class Form extends Component {
               onSubmitEditing={() => {
                 this.decimalsInput.focus();
               }}
-              placeholder="ELT"
+              placeholder="METTA"
               placeholderTextColor="#9d9d9d"
               ref={input => {
                 this.symbolInput = input;
